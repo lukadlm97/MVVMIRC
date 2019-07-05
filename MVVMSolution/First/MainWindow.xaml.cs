@@ -23,6 +23,29 @@ namespace First
         public MainWindow()
         {
             InitializeComponent();
+            
+        }
+        private void CreateViewImageDynamically()
+        {
+            Image dynamicImage = new Image();
+            dynamicImage.Stretch = Stretch.Fill;
+            dynamicImage.StretchDirection = StretchDirection.Both;
+            dynamicImage.Width = 300;
+            dynamicImage.Height=200;
+
+            BitmapImage bitmap = new BitmapImage();
+            bitmap.BeginInit();
+            bitmap.UriSource = new Uri(@"C:\Users\Luka\Desktop\MVVMIRC\MVVMSolution\First\money_heist.jpg");
+            bitmap.EndInit();
+
+            dynamicImage.Source = bitmap;
+
+            LayoutRoot.Children.Add(dynamicImage);
+        }
+
+        private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            CreateViewImageDynamically();
         }
     }
 }
