@@ -20,7 +20,7 @@ namespace MVVMMinimal.ModelVIew
             set
             {
                 _someText = value;
-                RaiseNotifyChanges("Some text");
+                RaiseNotifyChanges("SomeText");
             }
         }
         private readonly ObservableCollection<string> _history = new ObservableCollection<string>();
