@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMPro", "MVVM.Model\MVVMP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMStudent", "MVVMStudent\MVVMStudent.csproj", "{6B4D6581-CA33-475C-B840-1240803727BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMConvert", "MVVMConvert\MVVMConvert.csproj", "{446A8142-B29A-477F-934D-F775CDF661FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{6B4D6581-CA33-475C-B840-1240803727BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B4D6581-CA33-475C-B840-1240803727BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B4D6581-CA33-475C-B840-1240803727BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{446A8142-B29A-477F-934D-F775CDF661FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{446A8142-B29A-477F-934D-F775CDF661FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{446A8142-B29A-477F-934D-F775CDF661FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{446A8142-B29A-477F-934D-F775CDF661FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Collections.ObjectModel;
 using MVVMMinimal.Model;
 using System.Windows.Input;
+using MVVMMinimal.ModelView;
 
 namespace MVVMMinimal.ModelView
 {
