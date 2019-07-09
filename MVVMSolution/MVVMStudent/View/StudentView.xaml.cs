@@ -1,5 +1,4 @@
-﻿using MVVM.Model.ModelView;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,17 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace MVVM.Model.View
+namespace MVVMStudent.View
 {
     /// <summary>
-    /// Interaction logic for MainPage.xaml
+    /// Interaction logic for StudentView.xaml
     /// </summary>
-    public partial class MainPage : Window
+    public partial class StudentView : UserControl
     {
-        
-        public MainPage()
+        public StudentView()
         {
-         
+            InitializeComponent();
         }
     }
 }
