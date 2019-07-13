@@ -55,6 +55,15 @@ namespace MVVMNames.Model
                 OnPropertyChanged("Country");
             }
         }
+
+        public UserModel(int id,string firstName,string lastName,string country)
+        {
+            _userID = id;
+            _firstName = firstName;
+            _lastName = lastName;
+            _country = country;
+        }
+
         public event PropertyChangedEventHandler PropertyChanged;
         public void OnPropertyChanged(string propertyName)
         {
